@@ -8,7 +8,7 @@ function map(array, cb){
 }
 
 function reduce(array, cb, p=1){
-  let result = p
+  let result = p;
   for (const v of array)
    result = cb(v, result);
   return result;
