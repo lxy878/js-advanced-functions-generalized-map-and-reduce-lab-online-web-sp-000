@@ -12,5 +12,4 @@ function reduce(array, cb, p=0){
   for (const v of array)
    result = cd(v, result);
   return result;
-
 }
