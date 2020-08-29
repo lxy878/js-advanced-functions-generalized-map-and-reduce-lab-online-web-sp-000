@@ -2,6 +2,7 @@
 
 function map(array, cb){
   let results = [];
-  
-  cb()
+  for (const n of array)
+    results.push(cb());
+  return results
 }
