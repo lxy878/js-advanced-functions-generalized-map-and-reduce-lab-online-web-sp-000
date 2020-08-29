@@ -6,3 +6,7 @@ function map(array, cb){
     results.push(cb(n));
   return results;
 }
+
+function reduce(){
+  
+}
