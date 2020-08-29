@@ -11,7 +11,6 @@ function reduce(array, cb, p=0){
   let result = p
   for (const v of array)
    result = cd(v, result);
-
-  return result
+  return result;
 
 }
