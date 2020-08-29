@@ -12,7 +12,8 @@ function reduce(array, cb, p){
   if p
     result = p
   else
-    result = true
+    result = true;
+
   for (const v of array)
    result = cb(v, result);
   return result;
