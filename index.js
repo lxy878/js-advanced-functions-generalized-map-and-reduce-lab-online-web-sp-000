@@ -10,7 +10,7 @@ function map(array, cb){
 function reduce(array, cb, p){
   let result;
   if p
-    result = p
+    result = p + array[0]
   else
     result = array[0];
 
