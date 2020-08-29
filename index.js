@@ -7,6 +7,8 @@ function map(array, cb){
   return results;
 }
 
-function reduce(array, cb){
+function reduce(array, cbm, p){
+  let result = p
+  cd()
 
 }
