@@ -3,6 +3,6 @@
 function map(array, cb){
   let results = [];
   for (const n of array)
-    results.push(cb());
+    results.push(cb(n));
   return results;
 }
