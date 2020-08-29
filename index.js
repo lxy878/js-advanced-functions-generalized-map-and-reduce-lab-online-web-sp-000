@@ -7,8 +7,12 @@ function map(array, cb){
   return results;
 }
 
-function reduce(array, cb, p=0){
-  let result = p;
+function reduce(array, cb, p){
+  let result;
+  if p
+    result = p
+  else
+    result = true
   for (const v of array)
    result = cb(v, result);
   return result;
