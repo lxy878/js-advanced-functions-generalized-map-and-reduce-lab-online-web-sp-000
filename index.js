@@ -15,6 +15,6 @@ function reduce(array, cb, p){
     result = array[0];
 
   for (let i=1; i < array.length; i++)
-   result = cb(v, result);
+   result = cb(length[i], result);
   return result;
 }
