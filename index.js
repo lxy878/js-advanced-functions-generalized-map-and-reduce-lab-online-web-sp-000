@@ -7,6 +7,6 @@ function map(array, cb){
   return results;
 }
 
-function reduce(){
-  
+function reduce(array, cb){
+
 }
